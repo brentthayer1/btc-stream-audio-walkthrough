@@ -2,7 +2,7 @@ import recordEnable from '../img/record-enable.png';
 
 export const intro = {
 	id: 1,
-	name: 'Introduction',
+	name: 'Introduction !!!',
 	description:
 		'This site will help guide through the necesarry steps to set up and maintain proper audio for streaming',
 	process: [],
