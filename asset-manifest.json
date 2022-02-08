@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/btc-stream-audio-walkthrough/static/css/main.756d2bfb.css",
-    "main.js": "/btc-stream-audio-walkthrough/static/js/main.48d1bfe7.js",
+    "main.js": "/btc-stream-audio-walkthrough/static/js/main.40f4c7e4.js",
     "static/js/787.fd6895c3.chunk.js": "/btc-stream-audio-walkthrough/static/js/787.fd6895c3.chunk.js",
     "index.html": "/btc-stream-audio-walkthrough/index.html",
     "main.756d2bfb.css.map": "/btc-stream-audio-walkthrough/static/css/main.756d2bfb.css.map",
-    "main.48d1bfe7.js.map": "/btc-stream-audio-walkthrough/static/js/main.48d1bfe7.js.map",
+    "main.40f4c7e4.js.map": "/btc-stream-audio-walkthrough/static/js/main.40f4c7e4.js.map",
     "787.fd6895c3.chunk.js.map": "/btc-stream-audio-walkthrough/static/js/787.fd6895c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.756d2bfb.css",
-    "static/js/main.48d1bfe7.js"
+    "static/js/main.40f4c7e4.js"
   ]
 }
