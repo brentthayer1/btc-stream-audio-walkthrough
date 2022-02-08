@@ -1,15 +1,23 @@
 {
   "files": {
     "main.css": "/btc-stream-audio-walkthrough/static/css/main.756d2bfb.css",
-    "main.js": "/btc-stream-audio-walkthrough/static/js/main.f40180ca.js",
+    "main.js": "/btc-stream-audio-walkthrough/static/js/main.5c327387.js",
     "static/js/787.3ee8f705.chunk.js": "/btc-stream-audio-walkthrough/static/js/787.3ee8f705.chunk.js",
+    "static/media/VSLIDER.jpg": "/btc-stream-audio-walkthrough/static/media/VSLIDER.7f389785fb29ef87b337.jpg",
+    "static/media/NS.jpg": "/btc-stream-audio-walkthrough/static/media/NS.fec392b99c79aaf9e1e7.jpg",
+    "static/media/R.jpg": "/btc-stream-audio-walkthrough/static/media/R.bc30573145927f4593fc.jpg",
+    "static/media/M.jpg": "/btc-stream-audio-walkthrough/static/media/M.a9765aa5a3e0f0120831.jpg",
+    "static/media/S.jpg": "/btc-stream-audio-walkthrough/static/media/S.1ab48c1fcc0f40ea7a6c.jpg",
+    "static/media/VOX.jpg": "/btc-stream-audio-walkthrough/static/media/VOX.2135c19705c3a15e553f.jpg",
+    "static/media/AUX.jpg": "/btc-stream-audio-walkthrough/static/media/AUX.21c8f53cd21232ab929b.jpg",
+    "static/media/INST.jpg": "/btc-stream-audio-walkthrough/static/media/INST.2669c171a96daecef23c.jpg",
     "index.html": "/btc-stream-audio-walkthrough/index.html",
     "main.756d2bfb.css.map": "/btc-stream-audio-walkthrough/static/css/main.756d2bfb.css.map",
-    "main.f40180ca.js.map": "/btc-stream-audio-walkthrough/static/js/main.f40180ca.js.map",
+    "main.5c327387.js.map": "/btc-stream-audio-walkthrough/static/js/main.5c327387.js.map",
     "787.3ee8f705.chunk.js.map": "/btc-stream-audio-walkthrough/static/js/787.3ee8f705.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.756d2bfb.css",
-    "static/js/main.f40180ca.js"
+    "static/js/main.5c327387.js"
   ]
 }
