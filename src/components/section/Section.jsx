@@ -8,7 +8,7 @@ function Section({ section }) {
 	));
 	return (
 		<div className='sctn'>
-			<h2 className='title'>{section.name}</h2>
+			<h1 className='title'>{section.name}</h1>
 			<p className='desc'>{section.description}</p>
 			<div>{processes}</div>
 		</div>

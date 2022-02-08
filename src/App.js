@@ -2,19 +2,18 @@ import Header from './components/header/Header';
 import Home from './pages/home/Home';
 import Navigation from './components/navigation/Navigation';
 
-import {
-	generalSetup,
-	recording,
-	mixing,
-	intro,
-	controlSurface,
-} from './sections/section1';
+import { home } from './sections/Home';
+import { controlSurface } from './sections/controlSurface';
+import { generalSetup } from './sections/generalSetup';
+import { recording } from './sections/recording';
+import { mixing } from './sections/mixing';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Setup from './pages/setup/Setup';
 import Recording from './pages/recording/Recording';
 import Mixing from './pages/mixing/Mixing';
+import ControlSurface from './pages/control-surface/ControlSurface';
 
 import './App.css';
 
@@ -25,23 +24,26 @@ function App() {
 				<Header />
 				<Navigation />
 				<Routes>
-					<Route path='/' element={<Home key={intro.id} section={intro} />} />
+					<Route path='/' element={<Home key={home.id} section={home} />} />
 					<Route
 						path='/setup'
 						element={<Setup key={generalSetup.id} section={generalSetup} />}
 					/>
-					{/* <Route
+					<Route
 						path='/recording'
 						element={<Recording key={recording.id} section={recording} />}
-					/> */}
-					{/* <Route
+					/>
+					<Route
 						path='/mixing'
-						element={<Recording key={mixing.id} section={mixing} />}
-					/> */}
+						element={<Mixing key={mixing.id} section={mixing} />}
+					/>
 					<Route
 						path='/control-surface'
 						element={
-							<Recording key={controlSurface.id} section={controlSurface} />
+							<ControlSurface
+								key={controlSurface.id}
+								section={controlSurface}
+							/>
 						}
 					/>
 				</Routes>

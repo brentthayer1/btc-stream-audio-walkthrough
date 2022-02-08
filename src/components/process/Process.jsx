@@ -6,9 +6,10 @@ function Process({ process }) {
 	const steps = process.steps.map((step) => <Step step={step} />);
 	return (
 		<div className='prcs'>
-			<h3 className='prcs-name' key={process.id}>
+			<h2 className='prcs-name' key={process.id}>
 				{process.id + '. ' + process.name}
-			</h3>
+			</h2>
+			<p className='desc'>{process.description}</p>
 			<div>{steps}</div>
 		</div>
 	);
