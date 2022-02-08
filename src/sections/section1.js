@@ -1,4 +1,12 @@
 import recordEnable from '../img/record-enable.png';
+import TapButton from '../img/control-surface/TAP.jpg';
+import Boost1Button from '../img/control-surface/BOOST1.jpg';
+import Boost2Button from '../img/control-surface/BOOST2.jpg';
+import InOutButton from '../img/control-surface/INOUT.jpg';
+import TuneButton from '../img/control-surface/TUNE.jpg';
+import KeyKnob from '../img/control-surface/KEY.jpg';
+import RoomKnob from '../img/control-surface/ROOM.jpg';
+import VerbKnob from '../img/control-surface/VERB.jpg';
 
 export const intro = {
 	id: 1,
@@ -165,7 +173,7 @@ export const mixing = {
 		},
 		{
 			id: 2,
-			name: 'Monitor Input GGain ',
+			name: 'Monitor Input Gain ',
 			description: 'Appropriate input will allow for a smoother flow',
 			steps: [
 				{
@@ -195,25 +203,65 @@ export const mixing = {
 
 export const controlSurface = {
 	id: 1,
-	name: 'Name',
-	description: 'Desc',
+	name: 'Control Surface',
+	description:
+		"Ensure 'Cycle' button has been pressed a couple times and is lit up",
 	process: [
 		{
 			id: 1,
-			name: 'Name',
+			name: 'Global',
 			description: 'Desc',
 			steps: [
 				{
 					id: 'a',
-					name: 'Name',
-					description: 'Desc',
-					img: 'img',
+					name: 'TAP',
+					description:
+						'Tap to control tempo at which Ableton operates.  This will start “playing”.  Press spacebar to stop when needed.',
+					img: TapButton,
 				},
 				{
 					id: 'b',
-					name: 'Name',
-					description: 'Desc',
-					img: 'img',
+					name: 'IN/OUT',
+					description: 'Toggles between input channels and processing channels',
+					img: InOutButton,
+				},
+				{
+					id: 'c',
+					name: 'BOOST 1',
+					description: 'Toggles On / Off the Boost 1 channel',
+					img: Boost1Button,
+				},
+				{
+					id: 'd',
+					name: 'BOOST 2',
+					description: 'Toggles On / Off the Boost 2 channel',
+					img: Boost2Button,
+				},
+				{
+					id: 'e',
+					name: 'TUNE',
+					description:
+						'Toggle On / Off vocal tuning for all vocals.  Ensure this is toggled off while speaking',
+					img: TuneButton,
+				},
+				{
+					id: 'f',
+					name: 'KEY',
+					description: 'Vocal tuning key selector',
+					img: KeyKnob,
+				},
+				{
+					id: 'g',
+					name: 'ROOM',
+					description: 'Level of room mics.  Keep turned up in general',
+					img: RoomKnob,
+				},
+				{
+					id: 'h',
+					name: 'VERB',
+					description:
+						'Level of all reverb returns.  Vocal Verb 1, Vocal Verb 2, and Room Verb',
+					img: VerbKnob,
 				},
 			],
 		},
@@ -232,13 +280,13 @@ export const template = {
 			steps: [
 				{
 					id: 'a',
-					name: 'Name',
+					name: '',
 					description: 'Desc',
 					img: 'img',
 				},
 				{
 					id: 'b',
-					name: 'Name',
+					name: '',
 					description: 'Desc',
 					img: 'img',
 				},

@@ -7,6 +7,7 @@ function Navigation() {
 		<div className='nav'>
 			<Button page={'/'} title={'Home'} />
 			<Button page={'/setup'} title={'Setup'} />
+			<Button page={'/control-surface'} title={'Control Surface'} />
 			<Button page={'/recording'} title={'Recording'} />
 			<Button page={'/mixing'} title={'Mixing'} />
 		</div>

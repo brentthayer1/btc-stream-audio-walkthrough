@@ -2,7 +2,13 @@ import Header from './components/header/Header';
 import Home from './pages/home/Home';
 import Navigation from './components/navigation/Navigation';
 
-import { generalSetup, recording, mixing, intro } from './sections/section1';
+import {
+	generalSetup,
+	recording,
+	mixing,
+	intro,
+	controlSurface,
+} from './sections/section1';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -24,13 +30,19 @@ function App() {
 						path='/setup'
 						element={<Setup key={generalSetup.id} section={generalSetup} />}
 					/>
-					<Route
+					{/* <Route
 						path='/recording'
 						element={<Recording key={recording.id} section={recording} />}
-					/>
-					<Route
+					/> */}
+					{/* <Route
 						path='/mixing'
 						element={<Recording key={mixing.id} section={mixing} />}
+					/> */}
+					<Route
+						path='/control-surface'
+						element={
+							<Recording key={controlSurface.id} section={controlSurface} />
+						}
 					/>
 				</Routes>
 			</BrowserRouter>
