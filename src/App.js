@@ -1,25 +1,41 @@
-import logo from './logo.svg';
+import Header from './components/header/Header';
+import Home from './pages/home/Home';
+import Navigation from './components/navigation/Navigation';
+
+import { generalSetup, recording, mixing, intro } from './sections/section1';
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Setup from './pages/setup/Setup';
+import Recording from './pages/recording/Recording';
+import Mixing from './pages/mixing/Mixing';
+
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='App'>
+			<BrowserRouter>
+				<Header />
+				<Navigation />
+				<Routes>
+					<Route path='/' element={<Home key={intro.id} section={intro} />} />
+					<Route
+						path='/setup'
+						element={<Setup key={generalSetup.id} section={generalSetup} />}
+					/>
+					<Route
+						path='/recording'
+						element={<Recording key={recording.id} section={recording} />}
+					/>
+					<Route
+						path='/mixing'
+						element={<Recording key={mixing.id} section={mixing} />}
+					/>
+				</Routes>
+			</BrowserRouter>
+		</div>
+	);
 }
 
 export default App;

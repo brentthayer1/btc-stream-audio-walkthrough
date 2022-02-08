@@ -1,0 +1,8 @@
+.btn {
+	font-family: 'Optima';
+	text-align: center;
+	background-color: #b6bfc2;
+	color: rgb(28, 27, 34);
+	padding: 15px 32px;
+	display: inline-block;
+}
