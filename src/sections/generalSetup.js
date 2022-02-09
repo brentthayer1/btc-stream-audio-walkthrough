@@ -1,3 +1,5 @@
+import audioInput from '../img/setup/disconnect.png';
+
 export const generalSetup = {
 	name: 'General Setup',
 	description: 'These steps will get everything set up initially',
@@ -15,7 +17,7 @@ export const generalSetup = {
 				{
 					name: 'Ableton Audio Input',
 					description: 'Select X32 as input source',
-					img: 'img',
+					img: audioInput,
 				},
 				{
 					name: 'Ableton Audio Output',
@@ -30,27 +32,6 @@ export const generalSetup = {
 				{
 					name: 'Castr',
 					description: 'Ensure Castr is receiving audio from the encoder',
-					img: 'img',
-				},
-			],
-		},
-		{
-			name: 'Screen',
-			description: 'test desc',
-			steps: [
-				{
-					name: 'NS',
-					description: 'Open the instance of NS for each vocal channel',
-					img: 'img',
-				},
-				{
-					name: 'SSL',
-					description: 'Open the SSL Compressor on the master channel',
-					img: 'img',
-				},
-				{
-					name: 'L2',
-					description: 'Open the L2 limiter on the master channel',
 					img: 'img',
 				},
 			],

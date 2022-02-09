@@ -14,6 +14,7 @@ function Process({ process }) {
 			</h2>
 			<p className='desc'>{process.description}</p>
 			<div>{steps}</div>
+			<hr />
 		</div>
 	);
 }

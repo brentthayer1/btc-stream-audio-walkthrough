@@ -14,6 +14,7 @@ function Section({ section }) {
 			<p key={section.name} className='desc'>
 				{section.description}
 			</p>
+			<hr />
 			<div>{processes}</div>
 		</div>
 	);
