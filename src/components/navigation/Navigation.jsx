@@ -10,6 +10,10 @@ function Navigation() {
 			<Button page={'/control-surface'} title={'Control Surface'} />
 			<Button page={'/recording'} title={'Recording'} />
 			<Button page={'/mixing'} title={'Mixing'} />
+			<Button page={'/vocal-processing'} title={'Vocal Processing'} />
+			<Button page={'/instrument-processing'} title={'Instrument Processing'} />
+			<Button page={'/returns'} title={'Returns'} />
+			<Button page={'/master-out'} title={'Master Out'} />
 		</div>
 	);
 }

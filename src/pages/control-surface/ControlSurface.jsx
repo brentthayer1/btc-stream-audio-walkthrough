@@ -1,10 +1,10 @@
 import React from 'react';
 import Section from '../../components/section/Section';
 
-function ControlSurface({ id, section }) {
+function ControlSurface({ section }) {
 	return (
 		<div>
-			<Section id={section.name} section={section} />;
+			<Section key={section.name} section={section} />;
 		</div>
 	);
 }
