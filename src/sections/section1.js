@@ -22,5 +22,24 @@ export const template = {
 				},
 			],
 		},
+		{
+			id: 2,
+			name: 'Name',
+			description: 'Desc',
+			steps: [
+				{
+					id: 'a',
+					name: '',
+					description: 'Desc',
+					img: 'img',
+				},
+				{
+					id: 'b',
+					name: '',
+					description: 'Desc',
+					img: 'img',
+				},
+			],
+		},
 	],
 };

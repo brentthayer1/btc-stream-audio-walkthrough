@@ -1,20 +1,17 @@
 .stp {
-	font-family: 'Optima';
+	font-family: 'Impact';
 	text-align: center;
-	background-color: #b6bfc2;
-	color: rgb(28, 27, 34);
 	padding: 10px;
 }
 
 .step-name {
-	font-family: 'Optima';
+	font-family: 'Impact';
 	text-align: center;
-	background-color: #b6bfc2;
 	padding: 10px;
 }
 
 .step-desc {
-	font-family: 'Optima';
+	font-family: 'Impact';
 	text-align: center;
 	padding: 10px;
 }

@@ -80,7 +80,7 @@ export const controlSurface = {
 			],
 		},
 		{
-			id: 1,
+			id: 2,
 			name: 'Bus',
 			description: 'All instruments and vocals are controlled by two faders',
 			steps: [
@@ -109,7 +109,7 @@ export const controlSurface = {
 		},
 
 		{
-			id: 1,
+			id: 3,
 			name: 'Vocals',
 			description: 'Desc',
 			steps: [
