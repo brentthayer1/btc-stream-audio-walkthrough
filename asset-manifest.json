@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/btc-stream-audio-walkthrough/static/css/main.12df4060.css",
-    "main.js": "/btc-stream-audio-walkthrough/static/js/main.3fa2253e.js",
+    "main.js": "/btc-stream-audio-walkthrough/static/js/main.24cc246d.js",
     "static/js/787.3ee8f705.chunk.js": "/btc-stream-audio-walkthrough/static/js/787.3ee8f705.chunk.js",
     "static/media/input-channels.png": "/btc-stream-audio-walkthrough/static/media/input-channels.e4491802e85b75a1af81.png",
     "static/media/cla-76.png": "/btc-stream-audio-walkthrough/static/media/cla-76.b771f2f5f585653b2a0f.png",
@@ -39,11 +39,11 @@
     "static/media/tune.png": "/btc-stream-audio-walkthrough/static/media/tune.2ce72b3ede04249042f5.png",
     "index.html": "/btc-stream-audio-walkthrough/index.html",
     "main.12df4060.css.map": "/btc-stream-audio-walkthrough/static/css/main.12df4060.css.map",
-    "main.3fa2253e.js.map": "/btc-stream-audio-walkthrough/static/js/main.3fa2253e.js.map",
+    "main.24cc246d.js.map": "/btc-stream-audio-walkthrough/static/js/main.24cc246d.js.map",
     "787.3ee8f705.chunk.js.map": "/btc-stream-audio-walkthrough/static/js/787.3ee8f705.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12df4060.css",
-    "static/js/main.3fa2253e.js"
+    "static/js/main.24cc246d.js"
   ]
 }
