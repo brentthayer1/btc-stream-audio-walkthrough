@@ -37,12 +37,12 @@ export const controlSurface = {
 				},
 				{
 					name: 'BOOST 1',
-					description: 'Toggles On / Off the Boost 1 channel',
+					description: 'Toggles On / Off the Boost 1 return channel',
 					img: Boost1Button,
 				},
 				{
 					name: 'BOOST 2',
-					description: 'Toggles On / Off the Boost 2 channel',
+					description: 'Toggles On / Off the Boost 2 return channel',
 					img: Boost2Button,
 				},
 				{

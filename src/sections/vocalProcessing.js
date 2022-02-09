@@ -1,3 +1,15 @@
+import chain from '../img/vocal-processing/chain.png';
+import ns from '../img/vocal-processing/ns.png';
+import subEQ from '../img/vocal-processing/sub-eq.png';
+import sibilance from '../img/vocal-processing/sibilance.png';
+import tune from '../img/vocal-processing/tune.png';
+import sslEQ from '../img/vocal-processing/ssl-eq.png';
+import cla2A from '../img/vocal-processing/cla-2a.png';
+import cla76 from '../img/vocal-processing/cla-76.png';
+import tube from '../img/vocal-processing/tube.png';
+import leadBackground from '../img/vocal-processing/lead-background.png';
+import utility from '../img/vocal-processing/utility.png';
+
 export const vocalProcessing = {
 	name: 'Vocal Processing',
 	description: 'Each vocal channel is comprised of the same processing chain.',
@@ -5,41 +17,62 @@ export const vocalProcessing = {
 		{
 			name: 'Chain',
 			description: 'Desc',
+			img: chain,
 			steps: [
 				{
 					name: 'NS',
 					description: 'Desc',
-					img: 'img',
+					img: ns,
 				},
 				{
-					name: 'EQ',
+					name: 'Subtractive EQ',
 					description: 'Desc',
-					img: 'img',
+					img: subEQ,
 				},
 				{
-					name: 'Deesser 1',
+					name: 'Sibilance 1',
 					description: 'Desc',
-					img: 'img',
+					img: sibilance,
 				},
 				{
 					name: 'TUNE',
 					description: 'Desc',
-					img: 'img',
+					img: tune,
 				},
 				{
 					name: 'SSL EQ',
 					description: 'Desc',
-					img: 'img',
+					img: sslEQ,
 				},
 				{
-					name: 'Compressor 1',
+					name: 'CLA-2A',
 					description: 'Desc',
-					img: 'img',
+					img: cla2A,
 				},
 				{
-					name: 'Compressor 2',
+					name: 'CLA-76',
 					description: 'Desc',
-					img: 'img',
+					img: cla76,
+				},
+				{
+					name: 'Sibilance 2',
+					description: 'Desc',
+					img: sibilance,
+				},
+				{
+					name: 'Tube',
+					description: 'Desc',
+					img: tube,
+				},
+				{
+					name: 'Lead / Background',
+					description: 'Desc',
+					img: leadBackground,
+				},
+				{
+					name: 'Utility',
+					description: 'Desc',
+					img: utility,
 				},
 			],
 		},

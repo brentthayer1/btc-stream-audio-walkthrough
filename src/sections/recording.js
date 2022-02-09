@@ -1,4 +1,6 @@
-import recordEnable from '../img/record-enable.png';
+import recordEnable from '../img/recording/record-enable.png';
+import stop from '../img/recording/stop.png';
+import record from '../img/recording/record.png';
 
 export const recording = {
 	name: 'Recording',
@@ -17,18 +19,18 @@ export const recording = {
 					name: 'Stop 1',
 					description:
 						'Ensure timeline is at 0 seconds by pressing the stop button',
-					img: 'img',
+					img: stop,
 				},
 				{
 					name: 'Record',
 					description: 'Press record button.  Circle will be red.',
-					img: 'img',
+					img: record,
 				},
 				{
 					name: 'Stop 2',
 					description:
 						'Press space bar or the stop button to finish recording.',
-					img: 'img',
+					img: stop,
 				},
 			],
 		},
