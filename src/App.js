@@ -30,7 +30,7 @@ function App() {
 		<div className='App'>
 			<BrowserRouter>
 				<Header />
-				<Navigation />
+				{/* <Navigation /> */}
 				<Routes>
 					<Route path='/' element={<Home key={1} section={home} />} />
 					<Route

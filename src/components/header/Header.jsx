@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import Navigation from '../navigation/Navigation';
 
 function Header() {
 	return (
@@ -11,6 +12,7 @@ function Header() {
 				}
 				alt=''
 			/>
+			<Navigation />
 		</h1>
 	);
 }

@@ -1,8 +1,11 @@
 .btn {
 	font-family: 'Arial';
 	text-align: center;
-	background-color: #eff2f3;
-	color: rgb(28, 27, 34);
-	padding: 15px 32px;
+	/* background-color: #eff2f3; */
+	color: rgb(247, 246, 249);
+	padding: 10px;
 	display: inline-block;
+	border-radius: 9px;
+	margin: 4px 2px;
+	background-image: url('https://wallpaperaccess.com/full/340452.png');
 }

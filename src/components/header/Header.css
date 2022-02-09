@@ -3,6 +3,14 @@
 	text-align: center;
 	padding: 20px;
 	color: #eff2f3;
+	position: sticky;
+
+	background-image: url('https://wallpaperaccess.com/full/340452.png');
+	top: 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .img {
