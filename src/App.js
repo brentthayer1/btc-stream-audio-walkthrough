@@ -60,7 +60,7 @@ function App() {
 					/>
 					<Route
 						path='/master-out'
-						element={<Returns key={7} section={masterOut} />}
+						element={<MasterOut key={7} section={masterOut} />}
 					/>
 				</Routes>
 			</BrowserRouter>
