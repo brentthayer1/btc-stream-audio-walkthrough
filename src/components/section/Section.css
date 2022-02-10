@@ -3,12 +3,24 @@
 	text-align: center;
 	color: #eff2f3;
 
-	padding: 10px;
+	/* padding: 10px; */
+
+	/* position: sticky;
+	top: 0; */
 }
 
 .title {
 	font-family: 'Arial';
 	text-align: center;
+	position: sticky;
+	padding: 10px;
+
+	background-image: url('https://wallpaperaccess.com/full/340452.png');
+	top: 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .desc {

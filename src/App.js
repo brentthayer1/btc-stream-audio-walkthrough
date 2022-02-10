@@ -29,8 +29,8 @@ function App() {
 	return (
 		<div className='App'>
 			<BrowserRouter>
-				<Header />
-				{/* <Navigation /> */}
+				{/* <Header /> */}
+				<Navigation />
 				<Routes>
 					<Route path='/' element={<Home key={1} section={home} />} />
 					<Route
@@ -60,7 +60,7 @@ function App() {
 					/>
 					<Route
 						path='/master-out'
-						element={<MasterOut key={7} section={masterOut} />}
+						element={<MasterOut key={8} section={masterOut} />}
 					/>
 				</Routes>
 			</BrowserRouter>
