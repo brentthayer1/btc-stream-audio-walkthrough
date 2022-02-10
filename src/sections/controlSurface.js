@@ -18,11 +18,13 @@ import RButton from '../img/control-surface/R.jpg';
 export const controlSurface = {
 	name: 'Control Surface',
 	description: '',
+	img: false,
 	process: [
 		{
 			name: 'Global',
 			description:
 				"Controls over global settings. Ensure 'Cycle' button has been pressed a couple times and is lit up.",
+			img: false,
 			steps: [
 				{
 					name: 'TAP',
@@ -72,6 +74,7 @@ export const controlSurface = {
 		{
 			name: 'Bus',
 			description: 'All instruments and vocals are controlled by two faders',
+			img: false,
 			steps: [
 				{
 					name: 'AUX',
@@ -97,6 +100,7 @@ export const controlSurface = {
 		{
 			name: 'Vocals',
 			description: 'Desc',
+			img: false,
 			steps: [
 				{
 					name: 'Slider',

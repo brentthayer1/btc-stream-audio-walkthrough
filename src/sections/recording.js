@@ -5,10 +5,12 @@ import record from '../img/recording/record.png';
 export const recording = {
 	name: 'Recording',
 	description: 'These steps will guide through recording',
+	img: false,
 	process: [
 		{
 			name: 'Recording Service',
 			description: 'Steps to record service',
+			img: false,
 			steps: [
 				{
 					name: 'Record Enable',

@@ -9,10 +9,12 @@ import channelOut from '../img/mixing/channel-out.png';
 export const mixing = {
 	name: 'Mixing',
 	description: 'These steps will guide through mixing',
+	img: false,
 	process: [
 		{
 			name: 'Mixing Setup',
 			description: 'Steps for completing a mix',
+			img: false,
 			steps: [
 				{
 					name: 'Audio Input',
@@ -22,7 +24,7 @@ export const mixing = {
 				{
 					name: 'Mix',
 					description: 'Perform mix processing',
-					img: '',
+					img: false,
 				},
 				{
 					name: 'Delete',
@@ -45,6 +47,7 @@ export const mixing = {
 		{
 			name: 'Input',
 			description: 'Appropriate input will allow for a smoother flow',
+			img: false,
 			steps: [
 				{
 					name: 'Channel Input',
@@ -54,24 +57,20 @@ export const mixing = {
 				{
 					name: 'Channel Gain',
 					description:
-						'Each channel should be gained to right around -12 dB at peaks',
+						'Each channel should be gained to right around -12 dB at peaks.  This process needs to be continually monitored through the mix as well as stream.',
 					img: channelGain,
-				},
-				{
-					name: 'Continuous',
-					description:
-						'This is something that be dialed in once something has been recorded',
-					img: 'img',
 				},
 			],
 		},
 		{
 			name: 'Out',
 			description: '',
+			img: false,
 			steps: [
 				{
 					name: 'Channels Output',
-					description: 'This is where the mix happens',
+					description:
+						'The channel outputs are where the majority of the mix takes place, aside from input level monitoring.',
 					img: channelOut,
 				},
 			],

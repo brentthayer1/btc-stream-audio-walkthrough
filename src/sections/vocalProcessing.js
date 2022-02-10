@@ -13,6 +13,7 @@ import utility from '../img/vocal-processing/utility.png';
 export const vocalProcessing = {
 	name: 'Vocal Processing',
 	description: 'Each vocal channel is comprised of the same processing chain.',
+	img: false,
 	process: [
 		{
 			name: 'Chain',
@@ -73,6 +74,19 @@ export const vocalProcessing = {
 					name: 'Utility',
 					description: 'Desc',
 					img: utility,
+				},
+			],
+		},
+		{
+			name: 'Sends',
+			description: 'Desc',
+			img: false,
+			steps: [
+				{
+					name: 'Send A, B, F',
+					description:
+						"These send levels are controlled by the 'S' button corresponding with each vocal channel.  Do not adjust these.",
+					img: false,
 				},
 			],
 		},
