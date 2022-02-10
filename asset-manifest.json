@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/btc-stream-audio-walkthrough/static/css/main.69a815f6.css",
-    "main.js": "/btc-stream-audio-walkthrough/static/js/main.af05f229.js",
+    "main.js": "/btc-stream-audio-walkthrough/static/js/main.1bb4cee7.js",
     "static/js/787.3ee8f705.chunk.js": "/btc-stream-audio-walkthrough/static/js/787.3ee8f705.chunk.js",
     "static/media/input-channels.png": "/btc-stream-audio-walkthrough/static/media/input-channels.e4491802e85b75a1af81.png",
     "static/media/cla-76.png": "/btc-stream-audio-walkthrough/static/media/cla-76.b771f2f5f585653b2a0f.png",
@@ -10,13 +10,16 @@
     "static/media/verb.png": "/btc-stream-audio-walkthrough/static/media/verb.4ff93abe3356a1920fcf.png",
     "static/media/cla-2a.png": "/btc-stream-audio-walkthrough/static/media/cla-2a.48c997f4e0712fdbb025.png",
     "static/media/channel-out.png": "/btc-stream-audio-walkthrough/static/media/channel-out.ecd8c7e0ad833b29242f.png",
+    "static/media/f6.png": "/btc-stream-audio-walkthrough/static/media/f6.0de543d5c335dd5a2ef6.png",
     "static/media/ssl-eq.png": "/btc-stream-audio-walkthrough/static/media/ssl-eq.e3681a5ca978b527baa7.png",
     "static/media/eq.png": "/btc-stream-audio-walkthrough/static/media/eq.6552b1edc50b8c1449f3.png",
     "static/media/sibilance.png": "/btc-stream-audio-walkthrough/static/media/sibilance.ac988fe041c4b54d7b91.png",
     "static/media/ns.png": "/btc-stream-audio-walkthrough/static/media/ns.53ab16f827d355668002.png",
     "static/media/comp.png": "/btc-stream-audio-walkthrough/static/media/comp.6f5b219e39d2146a73e4.png",
+    "static/media/ssl.png": "/btc-stream-audio-walkthrough/static/media/ssl.8dc3c45509d09ee77eea.png",
     "static/media/delete.png": "/btc-stream-audio-walkthrough/static/media/delete.f81a96cb10d288cd8696.png",
-    "static/media/chain.png": "/btc-stream-audio-walkthrough/static/media/chain.3f6c139d09fd9a6b0107.png",
+    "static/media/l2.png": "/btc-stream-audio-walkthrough/static/media/l2.f6cca8336b31c3bdb1d0.png",
+    "static/media/chain.png": "/btc-stream-audio-walkthrough/static/media/chain.91fdb397afc87b5e861a.png",
     "static/media/dly.png": "/btc-stream-audio-walkthrough/static/media/dly.3c8118833feddcd51f94.png",
     "static/media/returns.png": "/btc-stream-audio-walkthrough/static/media/returns.59411f06c0261ebe34bf.png",
     "static/media/sub-eq.png": "/btc-stream-audio-walkthrough/static/media/sub-eq.b9774f6551b4787f3531.png",
@@ -29,6 +32,7 @@
     "static/media/S.jpg": "/btc-stream-audio-walkthrough/static/media/S.1ab48c1fcc0f40ea7a6c.jpg",
     "static/media/channel-gain.png": "/btc-stream-audio-walkthrough/static/media/channel-gain.cf048076e1ce97a47507.png",
     "static/media/tube.png": "/btc-stream-audio-walkthrough/static/media/tube.ccf67888c5c1af1a4d62.png",
+    "static/media/master-channel.png": "/btc-stream-audio-walkthrough/static/media/master-channel.5615071956ab4c8c594f.png",
     "static/media/record-disable.png": "/btc-stream-audio-walkthrough/static/media/record-disable.79bdbe7f6145eb5fd6a7.png",
     "static/media/record-enable.png": "/btc-stream-audio-walkthrough/static/media/record-enable.ae5eee65d655be041d97.png",
     "static/media/VOX.jpg": "/btc-stream-audio-walkthrough/static/media/VOX.2135c19705c3a15e553f.jpg",
@@ -39,11 +43,11 @@
     "static/media/tune.png": "/btc-stream-audio-walkthrough/static/media/tune.2ce72b3ede04249042f5.png",
     "index.html": "/btc-stream-audio-walkthrough/index.html",
     "main.69a815f6.css.map": "/btc-stream-audio-walkthrough/static/css/main.69a815f6.css.map",
-    "main.af05f229.js.map": "/btc-stream-audio-walkthrough/static/js/main.af05f229.js.map",
+    "main.1bb4cee7.js.map": "/btc-stream-audio-walkthrough/static/js/main.1bb4cee7.js.map",
     "787.3ee8f705.chunk.js.map": "/btc-stream-audio-walkthrough/static/js/787.3ee8f705.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69a815f6.css",
-    "static/js/main.af05f229.js"
+    "static/js/main.1bb4cee7.js"
   ]
 }
