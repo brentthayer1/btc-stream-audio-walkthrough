@@ -2,15 +2,17 @@
 	font-family: 'Arial';
 	text-align: center;
 	color: #eff2f3;
+	position: sticky;
+	padding: 10px;
+	top: 0;
 }
 
 .title {
 	font-family: 'Arial';
 	text-align: center;
 	position: sticky;
-	padding: 10px;
 
-	background-image: url('https://wallpaperaccess.com/full/340452.png');
+	background-image: url('https://wallpapercave.com/wp/wp2665743.jpg');
 	top: 0;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;

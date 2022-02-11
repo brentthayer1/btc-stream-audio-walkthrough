@@ -201,7 +201,7 @@ export const returns = {
 			img: false,
 			steps: [
 				{
-					name: 'Cue channels',
+					name: 'Channel out',
 					description: 'Select channels 3 & 4 for cue output',
 					img: false,
 				},

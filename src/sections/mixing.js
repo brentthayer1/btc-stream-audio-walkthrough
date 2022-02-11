@@ -5,6 +5,7 @@ import inputChannels from '../img/mixing/input-channels.png';
 import channelInput from '../img/mixing/channel-input.png';
 import channelGain from '../img/mixing/channel-gain.png';
 import channelOut from '../img/mixing/channel-out.png';
+import openPlugin from '../img/mixing/open-plugin.png';
 
 export const mixing = {
 	name: 'Mixing',
@@ -72,6 +73,18 @@ export const mixing = {
 					description:
 						'The channel outputs are where the majority of the mix takes place, aside from input level monitoring.',
 					img: channelOut,
+				},
+				{
+					name: 'Channel Levels',
+					description:
+						'The channel faders are mapped to the control surface, so adjusting levels should NOT take place on the faders.  Instead, utilize the LAST dynamic plugin within the plugin chain, and adjust the output from there.  Additionally, a utility plugin can be utilized to raise or lower the level.',
+					img: channelOut,
+				},
+				{
+					name: 'Open Plugin',
+					description:
+						'3rd party plugins can be opened by clicking the wrench icon.',
+					img: openPlugin,
 				},
 			],
 		},

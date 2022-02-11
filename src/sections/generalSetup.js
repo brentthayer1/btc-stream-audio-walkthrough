@@ -12,6 +12,11 @@ export const generalSetup = {
 			img: false,
 			steps: [
 				{
+					name: 'Keyboard Maestro',
+					description: 'Open keyboard maestro and minimize the window.',
+					img: false,
+				},
+				{
 					name: 'X32',
 					description: 'The X32 can be turned on here',
 					img: false,
